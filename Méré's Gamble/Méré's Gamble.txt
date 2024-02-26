@@ -1,0 +1,8 @@
+Méré, not so much famous gambler, realized that one can obtain 6 in 4 consecutive dice rolls with
+a relatively good probability, 0.5177. What about rolling two dices 24 times to obtain two 6 on the top? 
+It shows a worse performence, as probability 0.4914.
+
+In this example we simulated the dice rolls. We have an variable N which is the times we simulated
+the example. N goes up to 1000. As N increases, our approximations gets better, as we expected.
+
+This is only a toy example, just the observe and test some basic steps of Monte Carlo.
