@@ -4,7 +4,7 @@ import scipy.special as special
 import scipy.stats as scistat
 import matplotlib.pyplot as plt
 
-#it is only for computation of the correctness of oour estimation
+#it is only for computation of the correctness of our estimation
 #MCMC Metropolis-Hastings method is useful when normalisation contant is complicated
 def normalisationConstant(x):
     return np.exp(-(x**2))*(2+np.sin(5*x)+np.sin(2*x))
